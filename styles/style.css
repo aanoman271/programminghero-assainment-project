@@ -105,6 +105,42 @@ margin-bottom:20px ;
     border-radius: 20px;
 }
 
+/* users section */
+.user-content{
+    width: 850px;
+    height: 206px;
+     margin: 50px auto 0 auto;
+}
+
+.users{
+    background-color: #bf94ca;
+    border-radius: 10px;
+    margin: 120px 0;
+}
+.user-nums{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.user-num{
+    display: block;
+}
+.user-title{font-size: 25px;
+    padding-top: 30px;
+          
+}
+
+.user-num{
+    font-size: 50px;
+    color: #4E47FF;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.user-num-detail{
+    font-size: 12px;
+    font-weight: 100px;
+}
 
 /* productive section css */
 
@@ -140,6 +176,58 @@ margin-bottom:20px ;
     font-weight: 150;
 }
 
-..productive-card-container{
+.productive-card-container{
 box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+
+}
+
+.user-title{
+    text-align: center;
+}
+
+/* newslatter css */
+
+.newslatter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 0;
+}
+.newslatter-form-cotainer{
+    width: 50%;
+ 
+
+}
+.newslatter-form-cotainer form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+
+}
+.newslatter-form-cotainer form input{
+    width: 70%;
+    height: 40px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.newslatter-form-cotainer form textarea{
+    width: 70%;
+    height: 60px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.newslatter-btn{
+    width: 70%;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.newalatter-tytle{
+    font-size:67px;
 }
