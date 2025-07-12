@@ -241,16 +241,17 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
     margin-top: 120px;
         margin: 0 auto;
+        width: 1140px;
 }
 .fotter-logo{
     text-align: center;
-    margin: 125px auto;
+    margin: 0 auto;
     font-size: 75px;
     padding-top:30px ;
 }
 footer{
     background-color: #2f2e39;
-    height: 330px;
+
 }
 .fotter-content{
     color: #8987A1;
@@ -265,6 +266,7 @@ footer{
         color: #8987A1;
     font-size: 12px;
     font-weight: 500;
+ 
 }
 
 .fotter-container ul{
@@ -275,5 +277,5 @@ footer{
 
 button:hover{
     background-color: #393684;
-    transition: 0.6;
+ 
 }
