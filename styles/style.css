@@ -1,0 +1,68 @@
+
+/* dobble useabe css */
+
+
+.open-sans-logo {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.primary-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.primary-color{
+    color: #4E47FF
+}
+.primary-btn{
+    background-color: #4E47FF;
+    color: white;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+/* header section */
+
+.header-nav{
+    width: 1140px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.logo{
+    width: 99px;
+    height: 51;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+/* header-contend */
+
+.header-content{
+    text-align: center;
+    width: 905px;
+    height: 152px;
+    margin: 158px auto auto 200px;
+    padding: 30px;
+}
+header{
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+}
