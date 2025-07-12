@@ -104,3 +104,42 @@ margin-bottom:20px ;
 .action-img{
     border-radius: 20px;
 }
+
+
+/* productive section css */
+
+.productive-card-containers{
+    display: flex ;
+    justify-content: space-between;
+}
+.productive-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.pcard-content{
+    font-weight: 200;
+    font-size: 12px;
+}
+.pcard-heading{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.pcard-recive{
+    display: flex;
+    gap:15px
+}
+.pcard-recive img{
+    border-radius: 50%;
+}
+.pcard-recive form label{
+    display: block;
+    font-size: 10px;
+    font-weight: 150;
+}
+
+..productive-card-container{
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
